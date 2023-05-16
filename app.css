@@ -1,0 +1,126 @@
+/* Global styles */
+
+/* Apply box-sizing to all elements to include padding and borders in the element's total width and height */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    /* Specify the font family for the entire document */
+    line-height: 1.5;
+    /* Set the line height to improve readability */
+    background-color: #f4f4f4;
+    /* Set a background color for the body */
+    padding: 20px;
+    /* Add padding to create some space around the content */
+}
+
+/* Set styles for the main heading */
+h1 {
+    text-align: center;
+    /* Center align the heading */
+    margin-bottom: 20px;
+    /* Add some space below the heading */
+}
+
+/* Form styles */
+
+/* Center the form horizontally */
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Add some space below the form */
+}
+
+/* Styles for the search input */
+#searchForm input[type="text"] {
+    width: 300px;
+    /* Set a fixed width for the input field */
+    padding: 10px;
+    /* Add padding to the input field */
+    border: 1px solid #ccc;
+    /* Add a border to the input field */
+    border-radius: 5px 0 0 5px;
+    /* Add rounded borders to the left side of the input */
+}
+
+/* Styles for the search button */
+#searchForm button {
+    padding: 10px 20px;
+    /* Add padding to the button */
+    background-color: #333;
+    /* Set a background color for the button */
+    color: #fff;
+    /* Set the text color for the button */
+    border: none;
+    /* Remove the border from the button */
+    border-radius: 0 5px 5px 0;
+    /* Add rounded borders to the right side of the button */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the button */
+}
+
+/* Results styles */
+
+/* Styles for the container that holds each show */
+#results {
+    display: grid;
+    /* Use a grid layout to arrange the show containers */
+    gap: 20px;
+    /* Add some space between the show containers */
+}
+
+/* Styles for each show container */
+.show-container {
+    background-color: #fff;
+    /* Set a background color for the container */
+    padding: 20px;
+    /* Add padding to the container */
+    border-radius: 5px;
+    /* Add rounded borders to the container */
+}
+
+/* Styles for the show image */
+.show-container img {
+    width: 100%;
+    /* Set the image width to 100% of its container */
+    max-width: 300px;
+    /* Limit the image width to a maximum of 300 pixels */
+    height: auto;
+    /* Preserve the aspect ratio of the image */
+    object-fit: cover;
+    /* Scale the image to cover the entire container */
+    margin-bottom: 10px;
+    /* Add some space below the image */
+}
+
+/* Styles for the show title */
+.show-container h2 {
+    margin-bottom: 10px;
+    /* Add some space below the title */
+}
+
+/* Styles for the show summary */
+.show-container p {
+    margin-bottom: 10px;
+    /* Add some space below the summary */
+}
+
+/* Styles for the "More details" link */
+.show-container a {
+    color: #333;
+    /* Set the text color for the link */
+    text-decoration: none;
+    /* Remove the underline from the link */
+}
+
+/* Responsive styles */
+
+/* Media query
+  
